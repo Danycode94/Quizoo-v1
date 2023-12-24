@@ -238,10 +238,6 @@ class MainActivity:
                                             if choixQuiz[k].lesReponses[i1] not in pp:
                                                 pp.append(choixQuiz[k].lesReponses[i1])
                                                 connaitreChoixReponse.append(choixQuiz[k].lesReponses[i1])
-                                                # print((connaitreChoixReponse))
-                                                # print("Len :",len(connaitreChoixReponse))
-                                                # print("nbresReponseParQuestion :",nbresReponseParQuestion)
-                                                # input("...")
                                                 print(f"Reponse #{(len(connaitreChoixReponse))} :{(choixQuiz[k].lesReponses[i1])}")
                                         else:
                                             pp.append(choixQuiz[k].lesReponses[i1])
